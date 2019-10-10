@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap");
+
+.frame {
+  background-image: url ("./images/textureBackgroun.jpeg");
+}
+
+div.Polaris-TopBar {
+  height: 200px;
+  background-image: url("./images/textureBackgroun.jpeg");
+}
+
+/* Search Height Width */
+div.Polaris-TopBar-SearchField {
+  width: 180px;
+  height: 50px;
+}
+
+/* Background Color Searchfield */
+div.Polaris-TopBar-SearchField__Backdrop {
+  background: rgb(255, 212, 132);
+}
+/* .header {
+  margin-top: 10px;
+  height: 100px;
+  font-size: 25px;
+  width: 100%;
+  background-image: url("./images/textureBackgroun.jpeg");
+} */
+
+.navbar-wrapper {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 50px;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  left: 0;
+  z-index: 20;
+  background-image: url("./images/textureBackgroun.jpeg");
+}
+
+/* navbar links */
+a.nav-link {
+  font-size: 25px;
+  display: inline;
+  margin-left: 20px !important;
+}
+
+div.lahughesmusic-headerfont {
+  margin-right: 400px;
+}
+
+div.left {
+  margin-left: 100%;
+  position: relative;
+}
+
+.body {
+  background: black;
+}
+
+div.card {
+  font-size: 25px;
+  margin-top: 150px;
+  width: 600px;
+  background-image: url("./images/emailFormBackground.jpeg");
+  padding: 10px;
+  border-radius: 0.3em;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  height: 100px;
+  text-align: center;
+  background: transparent;
+}
+
+#exampleFormControlInput1 {
+  font-size: 15px;
+}
+
+label.lightgrey {
+  color: lightgrey;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 30px;
+}
+div.imageDiv {
+  margin-top: 150px;
+  margin-left: 30px;
+}
+
+h1.fontFamily {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+h2.role {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.listItems {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.italic {
+  font-style: italic;
+}
