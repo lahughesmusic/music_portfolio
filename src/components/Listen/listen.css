@@ -14,9 +14,10 @@
 }
 
 .music-marquee {
-  height: 20px;
+  height: 30px;
   background: #000;
   margin: 20px 0;
+  font-size: 20px;
   color: lightblue;
   overflow: hidden;
   border-top: lightblue inset 1px;
@@ -53,18 +54,18 @@
   color: #fff;
   border-radius: 5px;
   border: 1px solid #77ccff;
-  margin: 0 5px;
+  margin: 0 2.3%;
   text-transform: uppercase;
   width: 20%;
   float: left;
-  color: black;
+  color: white;
   transition-property: background-color;
   transition-duration: 2s;
 }
 
 .mp3list-buttons button:hover {
   background-color: #cfc;
-  color: #070;
+  color: rgb(117, 119, 0);
 }
 
 .clicked-mp3-button {
@@ -73,5 +74,5 @@
 }
 
 .unclicked-mp3-button {
-  background-color: #39f;
+  background-color: rgb(47, 29, 97);
 }

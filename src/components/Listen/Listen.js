@@ -11,7 +11,7 @@ export default class Listen extends Component {
     super(props);
     this.state = {
       mp3path: "https://song-253.s3.amazonaws.com/",
-      mp3name: "8_2.mp3",
+      mp3name: "SELECT ANY TRACK.mp3",
       mp3artist: "Lea Hughes",
       audiopath: "https://song-253.s3.amazonaws.com/8_2.mp3",
       mp3autoplay: "autoPlay",
@@ -31,9 +31,14 @@ export default class Listen extends Component {
     this.setState(state => ({
       mp3title: mp3title,
       audiopath: state.mp3path + state.mp3name,
-      mp3Data: musicData
+      mp3Data: musicData.sort((a, b) => {
+        var a1 = a.name.toLowerCase();
+        var b1 = b.name.toLowerCase();
+        return a1 < b1 ? -1 : a1 > b1 ? 1 : 0;
+      })
     }));
   }
+
   changeMP3(currentButtonId, genre, name, artist) {
     var mp3title = name;
     var mp3name = name;
@@ -52,14 +57,12 @@ export default class Listen extends Component {
       clickedButtonId: currentButtonId
     }));
   }
+
   render() {
     return (
       <div className="audio-container">
         <h1>{this.props.title}</h1>
-        <Marquee
-          mp3artist={this.state.mp3artist}
-          mp3genre={this.state.mp3genre}
-        >
+        <Marquee mp3artist={this.state.mp3artist}>
           {this.state.mp3title}
         </Marquee>
         <section className="mp3list-buttons">

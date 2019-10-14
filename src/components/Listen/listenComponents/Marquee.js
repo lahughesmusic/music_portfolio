@@ -12,10 +12,7 @@ export default class Marquee extends Component {
           }}
         />
         <section className="music-marquee">
-          <div className="headings">
-            ({this.props.mp3artist}) - ({this.props.children}) (
-            {this.props.mp3genre})
-          </div>
+          <div className="headings">"{this.props.children}"</div>
         </section>
       </div>
     );

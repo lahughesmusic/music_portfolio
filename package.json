@@ -26,11 +26,13 @@
     "react-media-player": "^0.7.7",
     "react-modular-audio-player": "^1.1.5",
     "react-native": "^0.61.2",
+    "react-redux": "^7.1.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.1.2",
     "react-sound": "^0.4.0",
     "react-soundplayer": "^1.0.4",
     "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
     "soundmanager2": "^2.97.20150601-a",
     "video-react": "^0.14.1"
   },

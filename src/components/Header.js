@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Body from "./Body";
+import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   render() {
@@ -8,41 +8,41 @@ export default class Header extends Component {
       marginTop: "8px",
       marginLeft: "30px",
       fontSize: "40px",
-      background: "-webkit-linear-gradient(lightgrey, white, lightblue)",
+      background: "-webkit-linear-gradient(darkgray, white, black)",
       webkitBackgroundClip: "text",
       webkitTextFillColor: "transparent"
     };
-    const margin = {
-      marginLeft: "auto",
-      marginRight: "auto"
-    };
 
     return (
-      <div style={margin} className="header navbar-wrapper">
+      <div className="header navbar-wrapper">
         {/* LAHUGHESMUSIC */}
         <nav className="navbar">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" href="#">
             <div className="lahughesmusic-headerfont">
               <h2 style={fontGradient}>LAHughesMusic</h2>
             </div>
             <div className="left">
-              <a className="nav-item left navbar nav-link active" href="/">
+              <Link className="nav-item left navbar nav-link active" to="/">
                 Home <span className="sr-only">(current)</span>
-              </a>
-              <a className="nav-item nav-link" href="/credits">
+              </Link>
+              <Link className="nav-item nav-link" to="/credits">
                 Credits
-              </a>
-              <a className="nav-item nav-link" href="/listen">
+              </Link>
+              <Link className="nav-item nav-link" to="/listen">
                 Listen
-              </a>
-              <a className="nav-item nav-link" href="/watch">
+              </Link>
+              <Link className="nav-item nav-link" to="/watch">
                 Watch
-              </a>
-              <a className="nav-item nav-link" href="/contact">
+              </Link>
+
+              <Link className="nav-item nav-link" to="/about">
+                About
+              </Link>
+              <Link className="nav-item nav-link" to="/contact">
                 Contact
-              </a>
+              </Link>
             </div>
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler"
@@ -56,21 +56,21 @@ export default class Header extends Component {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" href="#">
                   Home <span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" href="#">
                   Link
-                </a>
+                </Link>
               </li>
               <li className="nav-item"></li>
             </ul>
-          </div>
+          </div> */}
         </nav>
       </div>
     );

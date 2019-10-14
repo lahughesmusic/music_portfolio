@@ -14,16 +14,9 @@ export default class EmailForm extends Component {
       height: "100px",
       marginBottom: "10px"
     };
-    const button = {
-      marginTop: "20px",
-      height: "30px",
-      fontSize: "15px",
-      marginLeft: "400px",
-      marginBottom: "30px"
-    };
 
     return (
-      <div>
+      <div style={{ marginLeft: "30%", marginRight: "30%" }}>
         <div className="card">
           <form>
             <div style={formStyle} className="form-group">
@@ -62,12 +55,11 @@ export default class EmailForm extends Component {
               ></textarea>
             </div>
           </form>
-
-          <a style={button} href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
+          */}
         </div>
       </div>
-    );
+    )
+        
   }
 }
+

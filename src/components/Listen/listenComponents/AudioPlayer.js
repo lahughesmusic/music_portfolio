@@ -8,7 +8,7 @@ class AudioPlayer extends Component {
   }
   render() {
     return (
-      <audio controls controlsList="nodownload" ref="audio">
+      <audio ref="audio">
         <source src={this.props.audiopath} type="audio/ogg" />
         <source src={this.props.audiopath} type="audio/mpeg" />
       </audio>

@@ -2,7 +2,6 @@ import React from "react";
 import { BigPlayButton, LoadingSpinner, Player, ControlBar } from "video-react";
 import "../../../node_modules/video-react/dist/video-react.css";
 import Helmet from "react-helmet";
-import { render } from "react-dom";
 
 export default Watch => {
   const style = {
@@ -11,8 +10,9 @@ export default Watch => {
   const float = {
     float: "left",
     marginTop: "50px",
-    marginLeft: "30px"
+    marginLeft: "10%"
   };
+
   return (
     <div style={style}>
       <div style={float}>

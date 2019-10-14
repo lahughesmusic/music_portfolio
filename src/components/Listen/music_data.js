@@ -12,37 +12,37 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "guitar_loop",
+    name: "guitar_loop,mp3",
     usedToBe: "8_2.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "battle_vocals",
+    name: "battle_vocals.mp3",
     usedToBe: "AGT.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "should_i",
+    name: "should_i.mp3",
     usedToBe: "10-21-15.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "whims_loop",
+    name: "whims_loop.mp3",
     usedToBe: "11_1_16.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "up_to_no_good",
+    name: "up_to_no_good.mp3",
     usedToBe: "7-18-16.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "mysterious_lab",
+    name: "mysterious_lab.mp3",
     usedToBe: "8-23-15.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
@@ -95,7 +95,7 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "behind_the_curtain",
+    name: "behind_the_curtain.mp3",
     usedToBe: "ARPE.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
@@ -180,7 +180,7 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "Dream",
+    name: "Dream.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
@@ -190,14 +190,14 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "you_said_my_name(no_vox)",
+    name: "you_said_my_name(no_vox).mp3",
     usedToBe: "EDM_NOVOX.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
 
   {
-    name: "you_said_my_name(wvox)",
+    name: "you_said_my_name(wvox).mp3",
     usedToBe: "EDM_W:VOX.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
@@ -214,7 +214,7 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "ambient_loop",
+    name: "ambient_loop.mp3",
     usedToBe: "FLO_LOOP.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
@@ -237,7 +237,7 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "sundown_tension",
+    name: "sundown_tension.mp3",
     usedToBe: "GUITAR_THEME.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
@@ -285,7 +285,7 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "no_one_else_did_(NOVOX)",
+    name: "no_one_else_did_(NOVOX).mp3",
     usedToBe: "MIN.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
@@ -320,7 +320,7 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "battle_chase",
+    name: "battle_chase.mp3",
     usedToBe: "ORCHESTRAL.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
@@ -343,6 +343,7 @@ const musicData = [
     genre: "ambient"
   },
   {
+    //editing needed at the beginning
     name: "where_did_she_go.mp3",
     usedToBe: "PROJECT17:NOVOX.mp3",
     artist: "Lea Hughes",
@@ -490,97 +491,104 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "angel.mp3",
+    name: "setback.mp3",
+    usedToBe: "angel.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "ap4.mp3",
+    name: "hope_loop.mp3",
+    usedToBe: "ap4.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "ap5.mp3",
+    name: "new_beginnings.mp3",
+    usedToBe: "ap5.mp3",
+    artist: "Lea Hughes",
+    genre: "ambient"
+  },
+  // maybe some other time
+  // {
+  //   name: 'funky_lock'
+  //   usedToBe: "be.mp3",
+  //   artist: "Lea Hughes",
+  //   genre: "ambient"
+  // },
+  {
+    name: "waiting_for_results.mp3",
+    usedToBe: "bridge fast.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "be.mp3",
+    name: "venice_beach.mp3",
+    usedToBe: "clap copy.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "bridge fast.mp3",
+    name: "fun_times.mp3",
+    usedToBe: "club.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "clap copy.mp3",
+    name: "memories_overcome_me.mp3",
+    usedToBe: "crash.01.03.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "club.mp3",
+    name: "holding_on.mp3",
+    usedToBe: "decision.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "crash.01.03.mp3",
+    name: "king_of_the_city.mp3",
+    usedToBe: "efef.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "decision.mp3",
+    name: "shoulder.mp3",
+    usedToBe: "f(shoulder).mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "efef.mp3",
+    name: "progress.mp3",
+    usedToBe: "fall.01.01.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
-  {
-    name: "ever.mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
-  {
-    name: "f(shoulder).mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
-  {
-    name: "fall.01.01.mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
-  {
-    name: "fall.mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
+
   {
     name: "fell(NOVOX).mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "fell.mp3",
+    name: "fell(WVOX).mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "finally 1.mp3",
+    name: "why.mp3",
+    usedToBe: "finally 1.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "girl32.09.mp3",
+    name: "bouncy_morning.mp3",
+    usedToBe: "girl32.09.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "gone.01.mp3",
+    name: "gone.mp3",
+    usedToBe: "gone.01.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
@@ -595,57 +603,43 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "hooo.mp3",
+    name: "when_will_it_be_me.mp3",
+    usedToBe: "hooo.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "injustice_1.mp3",
+    name: "anyone_listening?.mp3",
+    usedToBe: "injustice_1.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "instrubeat.mp3",
+    name: "who_did_it.mp3",
+    usedToBe: "instrubeat.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
+
   {
-    name: "j.mp3",
+    name: "temporary_fall.mp3",
+    usedTobe: "latephonecall.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
-  {
-    name: "l.mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
-  {
-    name: "latephonecall.mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
-  {
-    name: "manana(NOVOX).mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
+  // {
+  //   name: "manana(NOVOX).mp3",
+  //   artist: "Lea Hughes",
+  //   genre: "ambient"
+  // },
   {
     name: "manana(WVOX).mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "neat.mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
-  {
-    name: "promise never to change(NOVOX).mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
-  {
-    name: "promise never to change(W:VOX).mp3",
+    name: "chasing_a_thought.mp3",
+    usedToBe: "neat.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
@@ -655,90 +649,91 @@ const musicData = [
     genre: "ambient"
   },
   {
-    name: "sai(NOVOX).mp3",
+    name: "experimental_loops.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "sai2.mp3",
+    name: "sail(WVOX).mp3",
+    usedToBe: "sai2.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "sai2:NOVOX.mp3",
+    name: "sail(NOVOX).MP3",
+    usedToBe: "sai2:NOVOX.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "sai3.mp3",
+    name: "fast_angles.mp3",
+    usedToBe: "sai3.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
-  {
-    name: "sav.mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
+  // {
+  //   name:
+  //   usedToBe: "sav.mp3",
+  //   artist: "Lea Hughes",
+  //   genre: "ambient"
+  // },
   {
     name: "still.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "stirings again.mp3",
+    name: "drama_in_the_castle.mp3",
+    usedToBe: "stirings again.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "string midi.05.00.02.mp3",
+    name: "dreaming_in_strings.mp3",
+    usedToBe: "string midi.05.00.02 copy.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "strings.mp3",
+    name: "good_monsters.mp3",
+    usedToBe: "strings.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "strong.mp3",
+    name: "darling.mp3",
+    usedToBe: "strong.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "sty.mp3",
+    name: "lost_in_the_city.mp3",
+    usedToBe: "sty.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "vgm.mp3",
+    name: "something_in_the_forest.mp3",
+    usedToBe: "vgm.mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "young dreamer.02.mp3",
+    name: "promise(NOVOX).mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   },
   {
-    name: "CHAOS.mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
-  {
-    name: "CHAOS.mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
-  {
-    name: "CHAOS.mp3",
-    artist: "Lea Hughes",
-    genre: "ambient"
-  },
-  {
-    name: "CHAOS.mp3",
+    name: "promise(WVOX).mp3",
     artist: "Lea Hughes",
     genre: "ambient"
   }
+  // {
+  //   name: "dreamer.mp3",
+  //   usedToBe: "young dreamer.02.mp3",
+  //   artist: "Lea Hughes",
+  //   genre: "ambient"
+  // },
 ];
 
 export default musicData;
